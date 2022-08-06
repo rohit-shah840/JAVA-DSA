@@ -7,7 +7,7 @@ public class StringToken {
         // Write your code here.
         scan.close();
         s = s.trim();
-        String str[] = s.split("[^a-zA-z]+");
+        String str[] = s.split("[^a-zA-Z]+");
         if (s.length() == 0)
             System.out.println(0);
         else
